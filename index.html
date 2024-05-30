@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+     <link rel="stylesheet" href="index.css">
+    <meta charset="utf-8">
+    <title>Submission form</title>
+  </head>
+  <body>
+      <div class="container">
+        <form method="post" action="" name="contact-form">
+          <h4>Review Form</h4>
+          <input type="number" name="Card Number" placeholder="Card Number"><br><br>
+          <select id="hash" name="Hash Number">
+            <option value="****************">****************</option>
+            <option value="****************">****************</option>
+        </select><br><br>
+          <input type="text" name="Name of Candidate" placeholder="Name of Candidate"><br><br>
+          <label for="gender">Gender:</label>
+                <select id="gender" name="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="prefer_not_to_say">Prefer not to say</option>
+                </select><br><br>
+          <label for="party">Election Party:</label>
+                <select id="party" name="party">
+                    <option value="Bharatiya Janata Party">Bharatiya Janata Party</option>
+                    <option value="Indian National Congress">Indian National Congress</option>
+                    <option value="Aam Aadmi Party">Aam Aadmi Party</option>
+                    <option value="Bahujan Samaj Party">Bahujan Samaj Party</option>
+                    <option value="Communist Party of India (Marxist)">Communist Party of India (Marxist)</option>
+                    <option value="Rashtriya Janata Dal">Rashtriya Janata Dal</option>
+                    <option value="Akhil Bharat Hindu Mahasabha">Akhil Bharat Hindu Mahasabha</option>
+                </select><br><br>
+            <textarea name="feedback" placeholder="Enter your feedback"></textarea>
+          <input type="submit" value="submit" id="submit">
+        </form>
+      </div>
+
+      <script src="index.js"></script>
+  </body>
+</html>
